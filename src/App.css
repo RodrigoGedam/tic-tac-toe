@@ -1,0 +1,37 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #223338;
+}
+
+.botao {
+	align-items: center;
+	background-color: #ae4710;
+	border: 0;
+	border-radius: 100px;
+	box-sizing: border-box;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-flex;
+	font-size: 16px;
+	font-weight: 600;
+	justify-content: center;
+	line-height: 20px;
+	max-width: 480px;
+	min-height: 40px;
+	min-width: 0px;
+	overflow: hidden;
+	padding: 0px 20px;
+	margin-top: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.botao:hover,
+.botao:focus {
+	background-color: #7d3209;
+	color: #ffffff;
+}
